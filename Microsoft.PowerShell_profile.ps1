@@ -1,6 +1,7 @@
 Set-Alias open "Invoke-Item"
 Set-Alias grep "findstr"
 
+#git
 function gaa() {
 	git add --all
 }
@@ -50,4 +51,17 @@ function grmc() {
 
 function gst() {
 	git status
+}
+
+#maven
+function mcv() {
+	mvn clean verify
+}
+
+function mci() {
+	mvn clean install
+}
+
+function mcp() {
+	mvn clean package
 }
