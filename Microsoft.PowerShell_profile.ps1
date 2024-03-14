@@ -1,4 +1,5 @@
 Set-Alias open "Invoke-Item"
+Set-Alias grep "findstr"
 
 function gaa() {
 	git add --all
